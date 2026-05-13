@@ -1,9 +1,6 @@
-import { useState } from 'react'
-
 import './App.css'
 import { Navbar } from './components/Navbar';
-import {Hero} from './components/Hero';
-import{Banner} from './components/Banner';
+import { Hero } from './components/Hero';
 import { Skill } from './components/Skill';
 import { Project } from './components/Project';
 import { About } from './components/About';
@@ -13,31 +10,35 @@ import { Footer } from './components/Footer';
 function App () {
 
   return (
-<>
-<input type="checkbox" id="darkMode"/>
-<div className="wrapper ">
- <label htmlFor="darkMode">
-         <i className="fa-solid fa-circle-half-stroke"></i>
-</label>
-{/*  <!-- nav bar --> */}
-<Navbar/>   
-{/* <!-- hero section --> */}
-<Hero/>
-{/* <!-- banner --> */}
-<Banner/>
-{/* <!-- skills --> */}
-<Skill />
-{/* <!-- projects --> */}
-<Project />
-{/* <!-- about me --> */}
-<About />
-{/* <!-- contact us --> */}
-<Contact />
-{/*  <!-- footer    ---> */}
-<Footer />
-</div>
+ <>
+      {/* <!-- dar mode toggler --> */}
 
-</>
+      <input type="checkbox" id="darkMode" />
+      <div className="wrapper">
+        <label htmlFor="darkMode">
+          <i className="fa-solid fa-circle-half-stroke"></i>
+        </label>
+        {/* <!-- navbar --> */}
+        <Navbar />
+        {/* <!-- hero section  --> */}
+        <Hero />
+
+        {/* <!-- skills section  --> */}
+        <Skill />
+
+        {/* <!-- project section  --> */}
+        <Project />
+
+        {/* <!-- about me section  --> */}
+        <About />
+
+        {/* <!-- Contact section  --> */}
+        <Contact />
+
+        {/* <!-- Footer section  --> */}
+        <Footer />
+      </div>
+    </>
   );}
 
 export default App

@@ -1,10 +1,11 @@
-import React from 'react'
-import { Title } from './Title';
+import React from "react";
+
 
 export const Project = () => {
+  
   return (
-    <div>
-        <Title title={"Projects"} />
-    </div>
-  )
-}
+    <section className="projects container" id="projects">
+      
+    </section>
+  );
+};

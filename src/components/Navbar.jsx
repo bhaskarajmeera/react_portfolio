@@ -1,34 +1,44 @@
-import React from 'react'
+import React from "react";
+import { useState } from "react";
 
 export const Navbar = () => {
+ const [slideMenu, setSlideMenu] = useState(false);
+
   return (
-    <>
     <header>
-        <div class="name container flex ">
-        <div class="logo flex">
-            <div>Bhaskar Ajmeera</div>
-            <div class="line">Soft.Engineer</div>
+     <div className="header container flex">
+        <div className="logo flex">
+          <div>Bhaskar Ajmeera</div>
+          <div className="line">Soft. Engineer</div>
         </div>
-        <div>
-        <label for="hamburgerMenu">
-          <i class="fa-solid fa-bars"></i>
+        <label htmlFor="hamburgerMenu" onClick={() => setSlideMenu(!slideMenu)}>
+          <i className="fa-solid fa-bars"></i>
         </label>
-        <input type="checkbox" id="hamburgerMenu"/>
+
+        <input type="checkbox" id="hamburgerMenu" />
+        <div className={slideMenu ? "menu slide" : "menu"}>
+          <ul
+            className="flex navigation"
+            onClick={() => setSlideMenu(!slideMenu)}
+          >
+            <li>
+              <a href="#hero">Home</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="menu">
-            <ul class="flex navigation">
-            <li><a href="#hero">
-                Home</a></li>
-            <li><a href="#skills"
-                >Skills</a></li>
-            <li><a href="#projects
-                ">Projects</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#contact">Conact us</a></li>
-            </ul>
-        </div>
-        </div>
-      </header>  
-    </>
+      </div>
+    </header>
   );
 };
