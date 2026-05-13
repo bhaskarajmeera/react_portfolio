@@ -1,9 +1,9 @@
 import React from 'react';
 import bhaskar from "../assets/bhaskar.jpg";
 import { Title } from './Title';
+
 export const About = () => {
   return (
-    <>
     <section className="about" id="about">
       <Title title="About Me" />
 
@@ -31,6 +31,5 @@ export const About = () => {
         </div>
       </div>
     </section>
-    </>
-  )
+  );
 };

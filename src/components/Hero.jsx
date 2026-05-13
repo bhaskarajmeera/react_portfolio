@@ -4,6 +4,7 @@ import bhaskar from "../assets/bhaskar.jpg";
 export const Hero = () => {
   return (
     <>
+   
     <section className="hero-section container" id="hero">
         <div className="grid hero">
           <div className="left flex">
@@ -59,6 +60,7 @@ export const Hero = () => {
           </div>
         </div>
       </section>
+      
     </>
   );
 };

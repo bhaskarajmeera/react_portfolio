@@ -339,7 +339,8 @@ footer {
 }
 
 footer .top {
-  margin-bottom: 5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
   gap: 5rem;
 }
 
