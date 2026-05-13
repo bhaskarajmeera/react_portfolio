@@ -13,7 +13,7 @@ function App () {
   return (
  <Routes>
       <Route path="/" element={<Layout />}>
-        <Route path="hero" element={<Hero />}/>
+        <Route path="Hero" element={<Hero />}/>
         <Route path="skills" element={<Skill />}/>
         <Route path="projects" element={<Project />}/>
         <Route path="about" element={<About />}/>
