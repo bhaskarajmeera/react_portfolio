@@ -141,7 +141,7 @@ header .header {
 .hero {
   background: var(--color-orange);
   grid-template-areas: "left right";
-  padding: 2rem;
+  padding: 1rem;
   box-shadow: var(--shadow);
 }
 
@@ -149,7 +149,7 @@ header .header {
   grid-area: left;
   flex-direction: column;
   justify-content: center;
-  margin-left: 10vw;
+  margin-left: 5vw;
 }
 .left div span {
   font-weight: bold;
@@ -179,7 +179,7 @@ header .header {
 }
 
 .right img {
-  height: 115%;
+  height: 90%;
 }
 
 /* <!-- banner section  --> */
