@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const [scrollYPosition, setScrollYPosition] = useState(0);
@@ -25,16 +26,16 @@ export const Footer = () => {
             <h3>Links</h3>
             <ul>
               <li>
-                <a href="#hero">Home</a>
+                <Link to="hero">Home</Link>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                <Link to="skills">Skills</Link>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <Link to="projects">Projects</Link>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <Link to="contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -42,16 +43,16 @@ export const Footer = () => {
             <h3>Social Links</h3>
             <ul>
               <li>
-                <a href="">LinkedIn</a>
+                <a to="">LinkedIn</a>
               </li>
               <li>
-                <a href="">Github</a>
+                <a to="">Github</a>
               </li>
               <li>
-                <a href="">Facebook</a>
+                <a to="">Facebook</a>
               </li>
               <li>
-                <a href="">Youtube</a>
+                <a to="">Youtube</a>
               </li>
             </ul>
           </div>
@@ -61,7 +62,7 @@ export const Footer = () => {
         </div>
       </footer>
       {scrollYPosition > 800 && (
-        <a href="#hero">
+        <a to="#hero">
           <div className="goUp flex-center">
             <i className="fa-solid fa-chevron-up"></i>
           </div>
