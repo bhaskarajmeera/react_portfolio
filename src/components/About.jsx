@@ -14,16 +14,10 @@ export const About = () => {
         <div className="my-bio container">
           <h2>Bhaskar Ajmeera</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
-            voluptas tempore eveniet exercitationem voluptatibus consequuntur
-            magni ducimus quis deserunt maxime, voluptatum natus quaerat est
-            molestiae? Earum, sunt pariatur? Voluptatem, assumenda!
+            I am a results‑driven Full Stack Developer specializing in building responsive, scalable, and high‑performance web applications using HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, AWS, and REST API development. I work across the full development lifecycle — from UI/UX implementation to backend architecture and cloud deployment.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequuntur nisi accusamus dignissimos voluptatum nam harum hic
-            assumenda ad nesciunt, inventore impedit et culpa maxime natus
-            placeat quidem quisquam corrupti sunt.
+            I bring strong problem‑solving skills, clean coding practices, and a commitment to delivering reliable, production‑ready solutions. My experience includes developing dynamic front‑end interfaces, designing secure API endpoints, integrating databases, and deploying applications on AWS.
           </p>
           <p>Newcastle, Australia</p>
           <div>
