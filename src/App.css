@@ -133,9 +133,9 @@ header .header {
 }
 /* <!-- hero section  --> */
 .hero-section {
-  margin-top: 5rem;
+  margin-top: 1rem;
   max-height: 60vh;
-  padding-top: 10rem;
+  padding-top: 5rem;
 }
 
 .hero {
@@ -163,9 +163,10 @@ header .header {
 }
 
 .left button {
+  margin: 2rem;
   background: var(--dark-bg);
   color: var(--dark-text-color);
-  padding: 0.8rem 2rem;
+  padding: 1rem 2rem;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -184,12 +185,11 @@ header .header {
 
 /* <!-- banner section  --> */
 .banner {
-  margin-top: 7rem;
+  margin-top: 10rem;
   border: 2px solid var(--border-color);
   box-shadow: var(--shadow);
-  padding: 2rem;
-  border-radius: 50px;
-
+  padding: 1rem;
+  border-radius: 30px;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
